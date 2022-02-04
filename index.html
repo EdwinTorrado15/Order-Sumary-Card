@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="/css/estilos.css">
+  
+  <title>Frontend Mentor | Order summary card</title>
+  
+</head>
+<body>
+  <div class="container-fluid d-flex justify-content-center align-items-center p-4">
+    <!--Start Carta--> 
+  <div class="card">
+    <!--Start Imagen carta--> 
+    <img class="card-img-top" src="/images/illustration-hero.svg" alt="illustration-hero">
+    <!--End Imagen carta--> 
+    
+    <!--Start Cuerpo carta--> 
+    <div class="card-body">
+      <h4 class="card-title pt-3"><b>Order Summary</b></h4>
+      <p class="card-text">You can now listen to millions of songs, audiobooks, and podcasts on any 
+        device anywhere you like!</p>
+        <div class="contenedor">
+        <div class="row row-cols-3 justify-content-end pt-3 tamano-row">
+          <div class="col-2"><img src="/images/icon-music.svg" alt="icon-music" class="icon-music"></div>
+          <div class="col-5"><p><b>Annual Plan</b> 
+            $59.99/year
+            </p></div>
+            <div class="col-4 change"><p><b>Change</b></p></div>             
+      </div>
+    </div>
+      <!--Start Buttons--> 
+      <div class="row p-4">
+      <a href="#" class="btn btn-primary payment"><b>Proceed to Payment</b> 
+      </a>
+      <a href="#" class="cancel pt-4"><b>Cancel Order</b> 
+      </a>
+    </div>
+      <!--End Buttons--> 
+    </div>
+    <!--End Cuerpo carta-->
+  </div>
+  <!--End Buttons--> 
+</div>
+  <script src="/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
